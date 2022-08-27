@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Proyecto4/static/css/main.aeb8b48b.css",
+    "main.js": "/Proyecto4/static/js/main.31f5d396.js",
+    "static/media/Cafe 1.png": "/Proyecto4/static/media/Cafe 1.982efcd9d0b162428703.png",
+    "static/media/Cafe 2.png": "/Proyecto4/static/media/Cafe 2.7b486f6985facb88271b.png",
+    "static/media/Cafe 3.png": "/Proyecto4/static/media/Cafe 3.f27c81efa27d70cebe42.png",
+    "static/media/americano.png": "/Proyecto4/static/media/americano.30b2b4b250dda502c37a.png",
+    "static/media/Cafe 4.png": "/Proyecto4/static/media/Cafe 4.e193a62588edec8e1d27.png",
+    "static/media/vainillaTea.png": "/Proyecto4/static/media/vainillaTea.c21dabb2995e5a92bbd4.png",
+    "static/media/tequilaCup.png": "/Proyecto4/static/media/tequilaCup.ad0111209eb186d479f5.png",
+    "static/media/Caramelocup.png": "/Proyecto4/static/media/Caramelocup.697c63a87b998c2037de.png",
+    "static/media/vainillaVerde.png": "/Proyecto4/static/media/vainillaVerde.943e7ddaa7b7485ed0f0.png",
+    "static/media/chocolateCup.png": "/Proyecto4/static/media/chocolateCup.2ecb58fec994f7b6ba98.png",
+    "static/media/vainillacup.png": "/Proyecto4/static/media/vainillacup.e92f841035aeb52fed8c.png",
+    "static/media/espreso.png": "/Proyecto4/static/media/espreso.9b03c9b80e77bab9ebec.png",
+    "static/media/capuchino.png": "/Proyecto4/static/media/capuchino.96026ead150b65a8dc0e.png",
+    "static/media/chocolateWhite.png": "/Proyecto4/static/media/chocolateWhite.158c662ac03c1815e20d.png",
+    "static/media/macchiato.png": "/Proyecto4/static/media/macchiato.8d55006541a1bcfe9361.png",
+    "static/media/chocolate.png": "/Proyecto4/static/media/chocolate.85971790ea05ccee350e.png",
+    "static/media/LuckyBrand.png": "/Proyecto4/static/media/LuckyBrand.52ef6ab279231d7e75c5.png",
+    "static/media/Insta.png": "/Proyecto4/static/media/Insta.ddce3ad52ceb3e85e23f.png",
+    "static/media/historiaCafe.png": "/Proyecto4/static/media/historiaCafe.7d0fd03aa1a0d66d0279.png",
+    "static/media/historiaCup.png": "/Proyecto4/static/media/historiaCup.918aaf7f4ff28e428936.png",
+    "static/media/mesero.png": "/Proyecto4/static/media/mesero.36ce2aefb1fa219abac5.png",
+    "static/media/teamCupcake.png": "/Proyecto4/static/media/teamCupcake.3794719ef8966209a578.png",
+    "static/media/LogoMenu.png": "/Proyecto4/static/media/LogoMenu.5848a913cf4dd17c4d15.png",
+    "index.html": "/Proyecto4/index.html",
+    "main.aeb8b48b.css.map": "/Proyecto4/static/css/main.aeb8b48b.css.map",
+    "main.31f5d396.js.map": "/Proyecto4/static/js/main.31f5d396.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aeb8b48b.css",
+    "static/js/main.31f5d396.js"
+  ]
+}
