@@ -1,0 +1,20 @@
+
+#nombreForm {
+    font-weight: 800;
+    color: brown;
+    border-color: brown;
+}
+
+#letraForm {
+    font-weight: 600;
+    border-color: brown;
+}
+#botonForm {
+    background-color: rgb(236, 135, 149);
+   border-color: rgb(255, 255, 255);
+}
+#botonForm:hover {
+    background-color: rgb(139, 0, 81);
+   border-color: rgb(255, 255, 255);
+   
+}

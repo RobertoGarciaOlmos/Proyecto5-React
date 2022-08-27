@@ -1,0 +1,29 @@
+#res {
+    background-color: rgba(237, 226, 230, 0.855);
+    display:block;
+    margin:auto;
+    text-align: center;
+
+}
+#nombreres {
+    font-weight: 600;
+}
+#boton {
+    background-color: rgba(255, 86, 159, 0.625);
+   border-color: rgb(255, 255, 255);
+}
+#boton:hover {
+    background-color: rgb(139, 0, 81);
+   border-color: rgb(255, 255, 255);
+   
+}
+
+#boton2 {
+    background-color: rgba(251, 55, 140, 0.864);
+   border-color: rgb(255, 255, 255);
+}
+#boton2:hover {
+    background-color: rgb(139, 0, 81);
+   border-color: rgb(255, 255, 255);
+   
+}

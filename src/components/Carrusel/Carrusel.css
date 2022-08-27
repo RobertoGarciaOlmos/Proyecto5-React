@@ -1,0 +1,26 @@
+#frases{
+    color: rgb(255, 255, 255);
+    background-color: rgba(13, 13, 13, 0.271);
+}
+
+.tituloHis{
+    text-align: center;
+    font-size: 300%;
+    color:rgb(135, 42, 42);;
+}
+
+.letraHis{
+    font-size: large;
+    color:rgb(135, 42, 42);;
+}
+
+.letra2His{
+    font-size: x-large;
+    color:rgb(135, 42, 42);;
+}
+
+#imagenHis{
+    display:block;
+    margin:auto;
+}
+

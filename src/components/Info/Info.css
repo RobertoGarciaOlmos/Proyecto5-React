@@ -1,0 +1,28 @@
+.tituloInfo{
+    font-size: 400%;
+    color: rgb(226, 40, 173);
+    text-align: center;
+    align-items: center;
+    font-style: initial;
+}
+
+.imagenInfo{
+    color: rgb(226, 40, 173);
+    margin-left:10% ;
+    align-items: center;
+    text-align: center;
+    font-style: initial;
+    font-size: x-large;
+
+
+}
+
+.letraInfo{
+    color: rgb(226, 40, 173);
+    margin-left:10% ;
+    align-items: center;
+    text-align: center;
+    font-style: initial;
+    font-size: x-large;
+}
+

@@ -1,0 +1,16 @@
+#lineaHead{
+    background-color:rgb(236, 135, 149);
+}
+.fondo{
+    background-color:rgb(255, 250, 250);
+    color: white;
+}
+
+.imagenLogo {
+    max-width: 200px;
+    
+}
+
+#letra{
+    color: rgb(236, 135, 149);;
+}

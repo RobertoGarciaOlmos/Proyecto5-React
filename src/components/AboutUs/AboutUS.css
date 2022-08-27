@@ -1,0 +1,16 @@
+
+.tituloAbout{
+    text-align: center;
+    font-size: 300%;
+    color:rgb(135, 42, 98);
+}
+
+.letraAbout{
+    text-align: center;
+    font-size: large;
+    color:rgb(135, 42, 98);}
+
+    #imagenTeam{
+        display:block;
+        margin:auto;
+    }

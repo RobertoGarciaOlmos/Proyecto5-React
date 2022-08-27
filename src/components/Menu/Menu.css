@@ -1,0 +1,22 @@
+.tituloMenu{
+    font-size: 400%;
+    color: rgb(135, 42, 42);
+    text-align: center;
+    align-items: center;
+    font-style: initial;
+}
+
+.titulo2Menu{
+    font-size: 200%;
+    color: rgb(135, 42, 42);
+    font-style: initial;
+}
+
+.letraMenu{
+    color: rgb(135, 42, 42);
+    font-style: initial;
+}
+#letraMenu{
+    color: rgb(135, 42, 42);
+    font-style: initial;
+}
