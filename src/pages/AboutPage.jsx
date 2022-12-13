@@ -1,8 +1,10 @@
+import AboutUs from "../components/AboutUs/AboutUS";
+
 const AboutPage = ()=> {
 
     
     return(
-        <h1>About</h1>
+        <AboutUs/>
         )
 }
 

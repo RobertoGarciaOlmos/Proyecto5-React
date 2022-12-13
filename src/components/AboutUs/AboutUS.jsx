@@ -3,7 +3,7 @@ import ImagenTeam from './Styles/teamCupcake.png';
 import './AboutUS.css'
 
 
-const AboutUsComp = () =>{
+const AboutUs = () =>{
 return(<>
 <Container>
 <br /><br /><br />
@@ -21,4 +21,4 @@ Lucky Brand Cupcakes es una empresa establecida en 2022, un concepto que surgió
 )
 }
 
-export default AboutUsComp;
+export default AboutUs;

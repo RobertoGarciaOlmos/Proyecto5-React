@@ -47,10 +47,11 @@ const Footer =() => {
     <div className='fin'>
     <Navbar>
    
-    <Col sm={3}><Nav.Link href="#"><Nav.Link to='/' as={Link}>LuckyBrand</Nav.Link></Nav.Link></Col>
-    <Col sm={3}><Nav.Link href="#action2"><Nav.Link to='/reservaciones' as ={Link}>Reservaciones</Nav.Link></Nav.Link></Col>
-    <Col sm={3}><Nav.Link href="#action3"><Nav.Link to='/menu' as ={Link}>Food Menu</Nav.Link></Nav.Link></Col>
-    <Col sm={3}><Nav.Link href="#action4"><Nav.Link to='/aboutus' as ={Link}>About Us</Nav.Link></Nav.Link></Col>
+    <Col sm={4}><Nav.Link href="#"><Nav.Link to='/' as={Link}>Home </Nav.Link></Nav.Link></Col>
+    <Col sm={4}><Nav.Link href="#action4"><Nav.Link to='/about' as ={Link}>About Us</Nav.Link></Nav.Link></Col>
+    <Col sm={4}><Nav.Link href="#action2"><Nav.Link to='/cupcakes' as ={Link}>Cupcakes</Nav.Link></Nav.Link></Col>
+    <Col sm={4}><Nav.Link href="#action2"><Nav.Link to='/inf' as ={Link}>Contact</Nav.Link></Nav.Link></Col>
+
 
 </Navbar>
 
