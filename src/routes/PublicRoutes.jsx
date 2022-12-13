@@ -14,7 +14,7 @@ return(
     <Route path='/' element = {<HomePage/>}/>
     {token && (<Route path='/about' element = {<AboutPage/>}/>)}
     {!token && (<Route path='/login' element = {<LoginPage guardarToken={guardarToken}/>}/>)}
-    {!token && (<Route path='/registro' element = {<RegistroPage/>}/>)}
+    {!token && (<Route path='/registro' element = {<RegistroPage guardarToken={guardarToken}/>}/>)}
     {token && ( <Route path='/cupcakes' element = {<CupcakePage/>}/>)}
     {token && ( <Route path='/reservaciones' element = {<ReservacionesPage/>}/>)}
     {token && ( <Route path='/info' element = {<InfoPage/>}/>)}    

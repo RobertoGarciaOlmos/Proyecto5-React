@@ -1,8 +1,15 @@
+import Carrusel from "../components/Carrusel/Carrusel";
+import Historia from "../components/Carrusel/Historia";
+
 const HomePage = ()=> {
 
     
     return(
-        <h1>Home</h1>
+        <>
+        <Historia/>
+        <Carrusel/>
+        </>
+        
         )
 }
 

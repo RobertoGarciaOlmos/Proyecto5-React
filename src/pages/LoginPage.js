@@ -7,27 +7,35 @@ import Loader from '../components/Loader';
 
 const LoginPage = ({guardarToken})=> {
   const[isLoading, setIsLoading] = useState(false);
+  const[errorMessage, setErrorMessage] = useState(null);
   const onSubmited = async (event) => {
     event.preventDefault();
     setIsLoading(true);
     const formData= new FormData(event.target);
     const data = Object.fromEntries(formData);
-    const {token:detalles}= await login(data);
-    guardarToken(detalles)
-    setIsLoading(false);
+    const {token:detalles, error}= await login(data);
+    if(error){
+ 
+      setErrorMessage(error)
+   
+    }
+    else{
+    guardarToken(detalles);
+    setErrorMessage(null);
     event.target.reset()
-  };
+  }
+  setIsLoading(false);
+};
     
-     return isLoading ? 
-     
-     ( <Loader/>) : (
-        
+     return isLoading ?  ( 
+     <Loader/>
+     ) : ( 
         <form onSubmit={onSubmited}>
-      <Form.Group className="mb-3" controlId="correo">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" placeholder="Enter your email" name= "correo" />
-      </Form.Group>
-
+          <Form.Group className="mb-3" controlId="correo">
+            <Form.Label>Email address</Form.Label>
+            <Form.Control type="email" placeholder="Enter your email" name= "correo" />
+            </Form.Group>
+          
       <Form.Group className="mb-3" controlId="password">
         <Form.Label>Password</Form.Label>
         <Form.Control type="password" placeholder="Enter your password"  name= "password"/>

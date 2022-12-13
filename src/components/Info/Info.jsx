@@ -12,8 +12,8 @@ const Info =()=>
         <br /><br />
     
     <Row >
-    <Col ms={6} className='imagenInfo'><img src={ImageIns} alt="Instagram" /></Col>
-    <Col ms={3} className='letraInfo'>
+        
+        <Col className='letraInfo'>
         <Container> 
             <br />
             <Row>
@@ -49,11 +49,14 @@ const Info =()=>
         <Row> contato**@LuckyBrand.mx
         </Row>
         </Container>
-        
+       
     </Col>
-        
+    <br /><br /><br />  
     </Row>
     <br /><br />
+    <Col>
+    <Row  id='imagenInfo'><img src={ImageIns} alt="Instagram" />  </Row>
+    </Col>
 </>
     )
 }
