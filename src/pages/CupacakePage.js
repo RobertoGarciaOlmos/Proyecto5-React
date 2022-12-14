@@ -16,6 +16,7 @@ useEffect(()=>{
     getCupcakes();
 },[]);
 
+// eslint-disable-next-line react-hooks/exhaustive-deps
 return(
 <ul>
     {cupcakes.map((cupcake,index)=>(
