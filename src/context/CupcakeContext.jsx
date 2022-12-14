@@ -7,7 +7,7 @@ const CupcakeContext = createContext()
 const {Provider} = CupcakeContext;
 
 //!3.- Crear componente
-const CupcakeProvider =({children})=>{
+const CupcakeProvider = ({children}) => {
 //!4.- Cremaos nuestro estado global
 const [cupcakes, setCupcakes] = useState([]);
 
@@ -19,7 +19,8 @@ const guardarCupcakes= (newCupcakes)=> setCupcakes(newCupcakes);
   //!6.- Retornamos componente
 
 return (
-  <Provider value = {{
+  <Provider 
+  value = {{
     cupcakes,
     guardarCupcakes,
   }}>
