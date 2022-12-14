@@ -1,11 +1,17 @@
+import { useContext } from 'react'; 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import {Link} from 'react-router-dom'
 import ImageLogo from './Styles/LogoMenu.png';
 import './Nav.css'
+import { UserContext } from '../../context/UserContext';
 
-const NavCup=({ token }) =>{
+
+const NavCup=() =>{
+const {user:
+    {token},} = useContext(UserContext);
+
     const publicRoutes =[
     <Nav.Link href="#action6"><Nav.Link to='/login' as ={Link} key= {1} id='letra'>Login</Nav.Link></Nav.Link>,
     <Nav.Link href="#action7"><Nav.Link to='/registro' as ={Link} key= {2}id='letra'>Registration</Nav.Link></Nav.Link>

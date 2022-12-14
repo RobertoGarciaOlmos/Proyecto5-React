@@ -1,13 +1,16 @@
 import { useState } from 'react';
+import { useContext } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { login } from '../services';
 import Loader from '../components/Loader';
+import { UserContext } from '../context/UserContext';
 
-
-const LoginPage = ({guardarToken})=> {
+const LoginPage = ()=> {
   const[isLoading, setIsLoading] = useState(false);
   const[errorMessage, setErrorMessage] = useState(null);
+  const {guardarToken} = useContext(UserContext);
+  
   const onSubmited = async (event) => {
     event.preventDefault();
     setIsLoading(true);
