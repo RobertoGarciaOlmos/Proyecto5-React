@@ -12,6 +12,7 @@ const ReservacionesPage =() => {
 
     const REF_COLLECTION = collection (db,"reservaciones");
 
+    // eslint-disable-next-line no-unused-vars
     const getAllreservaciones = async () =>{
         const snapshot= await getDocs(REF_COLLECTION);
         snapshot.docs.forEach((reservacion)=>console.log(reservacion.data()));}
