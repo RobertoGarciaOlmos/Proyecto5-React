@@ -19,9 +19,13 @@ const {user:
     
     const privRoutes =[
         <Nav.Link href="#action2"><Nav.Link to='/about' as ={Link} key= {1} id='letra'>About Us</Nav.Link></Nav.Link>,
-        <Nav.Link href="#action3"><Nav.Link to='/cupcakes' as ={Link} key= {2} id='letra'>Cupcakes</Nav.Link></Nav.Link>,
+        <Nav.Link href="#action3"><Nav.Link to='/cupcakes' as ={Link} key= {2} id='letra'>Desayunos</Nav.Link></Nav.Link>,
+        <Nav.Link href="#action4"><Nav.Link to='/menu' as ={Link} key= {3} id='letra'>Menu Cafeteria</Nav.Link></Nav.Link>,
         <Nav.Link href="#action4"><Nav.Link to='/reservaciones' as ={Link} key= {3} id='letra'>Reservation</Nav.Link></Nav.Link>,
-        <Nav.Link href="#action5"><Nav.Link to='/info' as ={Link} key= {4} id='letra'>Contact</Nav.Link></Nav.Link>
+        <Nav.Link href="#action5"><Nav.Link to='/info' as ={Link} key= {4} id='letra'>Contact</Nav.Link></Nav.Link>,
+        <Nav>
+            <Nav.Link href="#action6"><Nav.Link to='/Logout' as ={Link} key= {4} id='letra'>Logout</Nav.Link></Nav.Link>
+                </Nav>
         ]
     
     return ( <>

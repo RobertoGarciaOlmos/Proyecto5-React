@@ -9,6 +9,8 @@ import InfoPage from '../pages/InfoPage';
 import ReservacionesPage from '../pages/ReservacionesPage';
 import { Navigate } from 'react-router-dom/dist';
 import { UserContext } from "../context/UserContext";
+import Logout from "../components/Logout/Logout";
+import MenuPage from "../pages/MenuPage";
 
 const PublicRoutesComponent = () =>{
 const {
@@ -23,7 +25,9 @@ return(
     {!token && (<Route path='/registro' element = {<RegistroPage />}/>)}
     {token && ( <Route path='/cupcakes' element = {<CupcakePage/>}/>)}
     {token && ( <Route path='/reservaciones' element = {<ReservacionesPage/>}/>)}
-    {token && ( <Route path='/info' element = {<InfoPage/>}/>)}    
+    {token && ( <Route path='/info' element = {<InfoPage/>}/>)}
+    {token &&( <Route path="/Logout" element={<Logout/>}/>)}
+    {token &&( <Route path="/menu" element={<MenuPage/>}/>)}
     <Route path="*" element={<Navigate to="/" replace />}/>
 </Routes>
 
