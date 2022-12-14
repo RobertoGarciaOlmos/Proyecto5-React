@@ -6,21 +6,21 @@
 
 
 
-[Programming Languages] 
+[Programming Languages]     
 HTML, CCS & JavaScript
 
 
-[Frameworks] 
+[Frameworks]      
 React, Express & Bootstrap
 
 
-[Cloud] 
+[Cloud]      
 MongoDB & Firebase
 
 
-[Others] 
+[Others]     
 Node & Git
 
 
-[Database] 
+[Database]     
 MongoDB
