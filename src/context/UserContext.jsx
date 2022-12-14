@@ -4,7 +4,7 @@ import {useState, createContext} from "react";
 // !1.- Crear el contexto para el usuario
 const UserContext = createContext()
 
-// !2.- Vamos a obtener un provider
+// !2.- Vamos a obtener un provider del userContext
 
 const {Provider} = UserContext;
 
