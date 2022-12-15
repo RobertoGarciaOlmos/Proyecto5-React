@@ -26,7 +26,7 @@ const Footer =() => {
         <Col sm={2}></Col>
         <Col sm={9}> 
         <br /> 
-        <div>Nota:Esta pagina fue realizada con propositos estudiantiles. El contenido es unica y esclusivamente para la presentacion de un proyecto Bootcamps.
+        <div>Nota: Esta pagina fue realizada con propositos estudiantiles. El contenido es unica y esclusivamente para la presentacion de un proyecto Bootcamps.
       </div>
       <br /> 
       <div >Venustiano Carranza #208,0 Temoaya, Temoaya, Edo de México 50850 Temoaya, Estado de México, México.

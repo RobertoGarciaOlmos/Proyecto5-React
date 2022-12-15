@@ -5,6 +5,19 @@ const RegistroPage = ()=> {
 
     
      return(
+
+      <>
+
+      Servicio de registro temporalmente fuera de servicio.
+      <br />
+      Para acceder utilice el siguiente usuario:
+<br />
+<br />
+Email address:  rob@gmail.com
+<br />
+Password: contraseña
+
+<br /><br />
       <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Name</Form.Label>
@@ -23,7 +36,7 @@ const RegistroPage = ()=> {
         Submit
       </Button>
     </Form>
-
+</>
 
 
   )

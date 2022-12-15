@@ -26,11 +26,14 @@ useEffect(()=>{
 
 return (
 
+  
+  
   <div className="d-flex flex row" style={{with:"30%", margin: "10px", borderTop: "10px"}} >
     <br />
-
+    <h1 className='tituloMenu2'>Desayunos y Paquetes de la semana</h1>
+    <br />
+    <br /><br />
   {cupcakes.map((cupcake,index)=>(
-    
 
     <Col sm={3}>
 <Card style={{margin:"10px"}} key={index}>

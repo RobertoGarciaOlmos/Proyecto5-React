@@ -11,6 +11,7 @@ import { Navigate } from 'react-router-dom/dist';
 import { UserContext } from "../context/UserContext";
 import Logout from "../components/Logout/Logout";
 import MenuPage from "../pages/MenuPage";
+import ProfilePage from "../pages/ProfilePage";
 
 const PublicRoutesComponent = () =>{
 const {
@@ -28,6 +29,7 @@ return(
     {token && ( <Route path='/info' element = {<InfoPage/>}/>)}
     {token &&( <Route path="/Logout" element={<Logout/>}/>)}
     {token &&( <Route path="/menu" element={<MenuPage/>}/>)}
+    {token &&( <Route path="/profile" element={<ProfilePage/>}/>)}
     <Route path="*" element={<Navigate to="/" replace />}/>
 </Routes>
 
